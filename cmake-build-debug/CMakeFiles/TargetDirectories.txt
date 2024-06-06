@@ -1,0 +1,3 @@
+/Users/simonh/Documents/GitHub/CS50-Introduction/cmake-build-debug/CMakeFiles/CS50_Introduction.dir
+/Users/simonh/Documents/GitHub/CS50-Introduction/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/simonh/Documents/GitHub/CS50-Introduction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
