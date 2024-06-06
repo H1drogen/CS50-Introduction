@@ -1,5 +1,14 @@
 # ninja log v5
-0	138	1717702049891162476	CMakeFiles/CS50_Introduction.dir/me/hello.c.o	ce05717e89594e3
-138	222	1717702049974816710	CS50_Introduction	cc4bd2956a8526f3
 1	27	1717702079253946558	CMakeFiles/CS50_Introduction.dir/me/hello.c.o	ce05717e89594e3
 27	50	1717702079276029482	CS50_Introduction	cc4bd2956a8526f3
+1	130	1717702960901899788	CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o	173e1d2656ee4aac
+1	130	1717702960901907830	CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o	fd41ca4179eeb333
+2	126	1717703044055626404	CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o	fd41ca4179eeb333
+1	126	1717703044055626488	CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o	173e1d2656ee4aac
+126	201	1717703044130777337	CS50_Introduction	3175674d7b253b4f
+1	123	1717705102332471579	CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o	fd41ca4179eeb333
+123	200	1717705102408640820	CS50_Introduction	3175674d7b253b4f
+1	34	1717705176141404699	CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o	fd41ca4179eeb333
+34	58	1717705176163755046	CS50_Introduction	3175674d7b253b4f
+1	30	1717705219294269740	CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o	fd41ca4179eeb333
+30	53	1717705219316631461	CS50_Introduction	3175674d7b253b4f
