@@ -61,6 +61,12 @@ build CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o: C_COMPILER
   OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
   OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem1/mario-less
 
+build CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o: C_COMPILER__CS50_Introduction_unscanned_Debug /Users/simonh/Documents/GitHub/CS50-Introduction/problem1/cash/cash.c || cmake_object_order_depends_target_CS50_Introduction
+  DEP_FILE = CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
+  OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem1/cash
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CS50_Introduction
@@ -69,7 +75,7 @@ build CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o: C_COMPILER
 #############################################
 # Link the executable CS50_Introduction
 
-build CS50_Introduction: C_EXECUTABLE_LINKER__CS50_Introduction_Debug CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o
+build CS50_Introduction: C_EXECUTABLE_LINKER__CS50_Introduction_Debug CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
   POST_BUILD = :

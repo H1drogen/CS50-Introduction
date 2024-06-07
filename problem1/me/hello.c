@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int mario() {
+int hello() {
     char name[50];
     printf("What's your name? ");
     fgets(name, sizeof(name), stdin);
