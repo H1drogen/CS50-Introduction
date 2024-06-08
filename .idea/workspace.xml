@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,18 +21,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d75482-38f7-4850-8f8c-ba0a3f77a6b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problem1/cash/cash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem2/caesar/caesar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem2/readability/readability.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem2/scrabble/scrabble.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/answers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/random10000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/random5000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/random50000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/reversed10000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/reversed5000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/reversed50000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/sort1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/sort2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/sort3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/sorted10000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/sorted5000.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem3/sort/sorted50000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-99633c01b70c091f848e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-06T19-40-43-0394.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CS50_Introduction-Debug-db9892ce1c8c97948e22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6a5d6f5209fa92dda59e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-06-06T20-28-21-0228.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-CS50_Introduction-Debug-a21346fca594eafcf83b.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS50_Introduction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem1/me/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/problem1/me/hello.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +60,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/problem3/sort/random5000.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
     <option name="minorVersion" value="1.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2hWEF2rY0vOYhvDj28IEBxFGnFA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,14 +79,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "CMake Application.CS50_Introduction.executor": "Run",
+    "CMake Application.CS50_Introduction.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/simonh/Documents/GitHub/CS50-Introduction",
+    "last_opened_file_path": "/Users/simonh/Documents/GitHub/CS50-Introduction/problem3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,17 +96,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/problem3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/problem1" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="CS50_Introduction" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="3" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS50_Introduction" TARGET_NAME="CS50_Introduction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS50_Introduction" RUN_TARGET_NAME="CS50_Introduction">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CS50_Introduction" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS50_Introduction" TARGET_NAME="CS50_Introduction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS50_Introduction" RUN_TARGET_NAME="CS50_Introduction">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -104,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717701326459</updated>
       <workItem from="1717701327474" duration="5653000" />
+      <workItem from="1717775887477" duration="11355000" />
     </task>
     <servers />
   </component>

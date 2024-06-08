@@ -1,8 +1,12 @@
 # ninja log v5
-1	27	1717702079253946558	CMakeFiles/CS50_Introduction.dir/me/hello.c.o	ce05717e89594e3
-30	53	1717705219316631461	CS50_Introduction	3175674d7b253b4f
-1	126	1717703044055626488	CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o	173e1d2656ee4aac
+1	86	1717777140874893764	CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o	8a8a344de85d7545
+0	21	1717780369558595498	CMakeFiles/CS50_Introduction.dir/problem2/readability/readability.c.o	5259581233a1081f
 1	30	1717705219294269740	CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o	fd41ca4179eeb333
-1	130	1717705903930932780	CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o	8a8a344de85d7545
-2	28	1717705932241134799	CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o	8a8a344de85d7545
+2	29	1717777456499323994	CMakeFiles/CS50_Introduction.dir/problem2/scrabble/scrabble.c.o	3ef69a8dc9a848b8
+1	36	1717853016380883088	build.ninja	fc4387b48c42ee81
 2	30	1717705952868640041	CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o	173e1d2656ee4aac
+1	27	1717702079253946558	CMakeFiles/CS50_Introduction.dir/me/hello.c.o	ce05717e89594e3
+36	64	1717852951914408718	CS50_Introduction	e51d3c8eb283591d
+1	36	1717852951887265402	CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o	7626ed25cc9d3406
+1	38	1717853862300064112	CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o	7626ed25cc9d3406
+38	66	1717853862327745425	CS50_Introduction	e51d3c8eb283591d

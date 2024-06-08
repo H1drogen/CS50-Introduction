@@ -49,23 +49,11 @@ cmake_ninja_workdir = /Users/simonh/Documents/GitHub/CS50-Introduction/cmake-bui
 
 build cmake_object_order_depends_target_CS50_Introduction: phony || CMakeFiles/CS50_Introduction.dir
 
-build CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o: C_COMPILER__CS50_Introduction_unscanned_Debug /Users/simonh/Documents/GitHub/CS50-Introduction/problem1/me/hello.c || cmake_object_order_depends_target_CS50_Introduction
-  DEP_FILE = CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o.d
+build CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o: C_COMPILER__CS50_Introduction_unscanned_Debug /Users/simonh/Documents/GitHub/CS50-Introduction/problem2/caesar/caesar.c || cmake_object_order_depends_target_CS50_Introduction
+  DEP_FILE = CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem1/me
-
-build CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o: C_COMPILER__CS50_Introduction_unscanned_Debug /Users/simonh/Documents/GitHub/CS50-Introduction/problem1/mario-less/mario.c || cmake_object_order_depends_target_CS50_Introduction
-  DEP_FILE = CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem1/mario-less
-
-build CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o: C_COMPILER__CS50_Introduction_unscanned_Debug /Users/simonh/Documents/GitHub/CS50-Introduction/problem1/cash/cash.c || cmake_object_order_depends_target_CS50_Introduction
-  DEP_FILE = CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
-  OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem1/cash
+  OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem2/caesar
 
 
 # =============================================================================
@@ -75,7 +63,7 @@ build CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o: C_COMPILER__CS50_
 #############################################
 # Link the executable CS50_Introduction
 
-build CS50_Introduction: C_EXECUTABLE_LINKER__CS50_Introduction_Debug CMakeFiles/CS50_Introduction.dir/problem1/me/hello.c.o CMakeFiles/CS50_Introduction.dir/problem1/mario-less/mario.c.o CMakeFiles/CS50_Introduction.dir/problem1/cash/cash.c.o
+build CS50_Introduction: C_EXECUTABLE_LINKER__CS50_Introduction_Debug CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
   POST_BUILD = :
