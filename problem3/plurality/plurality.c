@@ -66,6 +66,15 @@ int main(int argc, string argv[])
 bool vote(string name)
 {
     // TODO
+    for (int i = 0; i < candidate_count; i++)
+    {
+        // the == operator is used to compare the values of two variables. when used with strings in C, the == operator compares the addresses of the strings
+        if (strcmp(name, candidates[i].name) == 0)
+        {
+            candidates[i].votes++;
+            return true;
+        }
+    }
     return false;
 }
 
@@ -73,5 +82,23 @@ bool vote(string name)
 void print_winner(void)
 {
     // TODO
-    return;
+    int max_votes = 0;
+
+    // Determine the number of votes the winner has
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (candidates[i].votes > max_votes)
+        {
+            max_votes = candidates[i].votes;
+        }
+    }
+
+    // Print the winner (or winners) with the most votes
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (candidates[i].votes == max_votes)
+        {
+            printf("%s\n", candidates[i].name);
+        }
+    }
 }

@@ -1,21 +1,15 @@
-sort1 uses: TODO
-Bubble Sort
+sort1 uses: Bubble Sort
 
-How do you know?: TODO
-Sorting is very quick on sorted50000.
+How do you know?: Sorting is very quick on sorted50000.
 But it is slow in reverse50000.
 This makes sense given that bubble sort runs quickly for already sorted lists.
 
-sort2 uses: TODO
-Merge Sort
+sort2 uses: Merge Sort
 
-How do you know?: TODO
-Sorting takes the quickest time.
+How do you know?: Sorting takes the quickest time.
 Merge sort is the fastest sorting algorithm.
 
-sort3 uses: TODO
-Selection Sort
+sort3 uses: Selection Sort
 
-How do you know?: TODO
-Process of elimination.
+How do you know?: Process of elimination.
 It is the slowest sorting algorithm.

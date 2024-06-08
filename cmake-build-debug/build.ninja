@@ -55,6 +55,12 @@ build CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o: C_COMPILER__C
   OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
   OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem2/caesar
 
+build CMakeFiles/CS50_Introduction.dir/problem3/plurality/plurality.c.o: C_COMPILER__CS50_Introduction_unscanned_Debug /Users/simonh/Documents/GitHub/CS50-Introduction/problem3/plurality/plurality.c || cmake_object_order_depends_target_CS50_Introduction
+  DEP_FILE = CMakeFiles/CS50_Introduction.dir/problem3/plurality/plurality.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
+  OBJECT_FILE_DIR = CMakeFiles/CS50_Introduction.dir/problem3/plurality
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CS50_Introduction
@@ -63,7 +69,7 @@ build CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o: C_COMPILER__C
 #############################################
 # Link the executable CS50_Introduction
 
-build CS50_Introduction: C_EXECUTABLE_LINKER__CS50_Introduction_Debug CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o
+build CS50_Introduction: C_EXECUTABLE_LINKER__CS50_Introduction_Debug CMakeFiles/CS50_Introduction.dir/problem2/caesar/caesar.c.o CMakeFiles/CS50_Introduction.dir/problem3/plurality/plurality.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/CS50_Introduction.dir
   POST_BUILD = :

@@ -9,5 +9,6 @@ add_executable(CS50_Introduction
 #        problem1/cash/cash.c
 #        problem2/scrabble/scrabble.c
 #        problem2/readability/readability.c
-        problem2/caesar/caesar.c
+#        problem2/caesar/caesar.c
+        problem3/plurality/plurality.c
 )
